@@ -1,4 +1,5 @@
 module Rackable
+#  extend(Rackable::Serialize)
   attr_reader :rack
 
   class MethodNotAllowed < NoMethodError
